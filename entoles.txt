@@ -1,0 +1,11 @@
+./validate_api thread_tests
+
+gnome-terminal -e "./terminal 0"
+
+gnome-terminal -e "./terminal 1"
+
+./tinyos_shell 1 2
+
+(symposium 5000 1)
+
+(symp_thr 5 5)
